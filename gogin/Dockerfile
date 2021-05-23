@@ -1,7 +1,7 @@
 
 FROM golang:1.16 AS build
 
-WORKDIR /go/src/gin
+WORKDIR /go/src/gogin
 
 COPY . .
 
@@ -14,7 +14,7 @@ FROM alpine:latest
 
 WORKDIR /app
 
-COPY --from=build /go/src/gin/app .
+COPY --from=build /go/src/gogin/app .
 
 EXPOSE 3006
 
