@@ -1,0 +1,1 @@
+docker build -t gogin . && docker run -p 3006:3006 gogin

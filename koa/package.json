@@ -1,0 +1,13 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.1"
+  }
+}
